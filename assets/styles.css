@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  padding: 2px 2px 4px;
+  font-size: 2.8rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+#info {
+  margin-top: 50px;
+}
+
+p {
+  margin-top: 20px;
+}
+
+img {
+  width: 80px;
+  height: 100px;
+  object-fit: cover;
+}
